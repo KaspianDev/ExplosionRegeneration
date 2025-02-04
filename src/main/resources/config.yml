@@ -1,5 +1,5 @@
 # @plugin ExplosionRegeneration
-# @version 1.4.10
+# @version 1.4.11
 # @author foncused
 
 # Do you want blocks to regenerate in random order?
@@ -40,6 +40,11 @@ blacklist:
 
 # Entity protection (Armor Stands, Item Frames, Paintings, Minecarts)
 entity-protection: true
+
+# Which explosion causes to regen (could be block type or entity type, such as CREEPER)
+# All if set to '*'
+explosion-whitelist:
+  - "*"
 
 # Should item drops from explosions be enabled?
 drops:
